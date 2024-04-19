@@ -9,14 +9,14 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDbPFQsr49TMiXN-PLLgsjpaW0-Sta70PY",
-  authDomain: "ajmerstore-7d3af.firebaseapp.com",
-  projectId: "ajmerstore-7d3af",
-  storageBucket: "ajmerstore-7d3af.appspot.com",
-  messagingSenderId: "238656911289",
-  appId: "1:238656911289:web:15df28bfd574cc76daa868",
+  apiKey: "AIzaSyAp4yN67uEQ-rThw9FYwfelWjTkDzc2fDA",
+  authDomain: "ajmerclient.firebaseapp.com",
+  projectId: "ajmerclient",
+  storageBucket: "ajmerclient.appspot.com",
+  messagingSenderId: "846509056495",
+  appId: "1:846509056495:web:29267fc981802690b2d61a",
+  measurementId: "G-RMVC0ZBYN1"
 };
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
